@@ -154,11 +154,6 @@
   birthday.setDate(28);
   birthday.setHours(0, 0, 0, 0);
 
-  // If birthday date already passed this year, set to next year
-  const now = new Date();
-  if (birthday < now) {
-    birthday.setFullYear(birthday.getFullYear() + 1);
-  }
 
   let countdownInterval;
 
